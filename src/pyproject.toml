@@ -1,0 +1,6 @@
+[project]
+name = "mainapp"  # This can stay with hyphen
+version = "1.0.0"
+
+[project.scripts]
+utilsapp = "main:main"  # Short and simple

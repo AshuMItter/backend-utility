@@ -1,0 +1,6 @@
+api_key = myapiky
+APP_NAME=MyApp​
+APP_VERSION=1.0.0​
+​
+# Combine variables​
+FULL_NAME="${APP_NAME}-v${APP_VERSION}"
