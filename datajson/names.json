@@ -1,0 +1,9 @@
+{
+    "data":{
+
+    
+"user1": {"id": 1, "name": "Ankit", "age": 25, "city": "New York"},
+
+"user2":{"id": 1, "name": "Ankit", "age": 25, "city": "New York","isActive": true}
+    }
+}

@@ -1,0 +1,87 @@
+{
+  "company": {
+    "name": "TechInnovate Solutions",
+    "founded": 2015,
+    "is_active": true,
+    "rating": 4.8,
+    "headquarters": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "zip_code": "94105"
+    },
+    "departments": [
+      {
+        "id": 1,
+        "name": "Engineering",
+        "head": "Dr. Sarah Chen",
+        "employees": 45,
+        "budget": 2500000.50,
+        "projects": ["Project Alpha", "Project Beta", "Project Gamma"]
+      },
+      {
+        "id": 2,
+        "name": "Marketing",
+        "head": "James Rodriguez",
+        "employees": 18,
+        "budget": 850000.75,
+        "projects": ["Campaign Q4", "Brand Refresh"]
+      },
+      {
+        "id": 3,
+        "name": "Sales",
+        "head": "Emily Thompson",
+        "employees": 22,
+        "budget": 1200000.00,
+        "projects": ["Enterprise Outreach", "Partnership Program"]
+      }
+    ],
+    "products": [
+      {
+        "product_id": "P-1001",
+        "name": "CloudSync Pro",
+        "price": 299.99,
+        "in_stock": true,
+        "features": ["real-time sync", "encryption", "multi-platform"],
+        "reviews": [
+          {"user": "john_doe", "rating": 5, "comment": "Excellent product!"},
+          {"user": "jane_smith", "rating": 4, "comment": "Good but pricey"}
+        ]
+      },
+      {
+        "product_id": "P-1002",
+        "name": "DataVault",
+        "price": 159.50,
+        "in_stock": false,
+        "features": ["backup", "restore", "versioning"],
+        "reviews": []
+      },
+      {
+        "product_id": "P-1003",
+        "name": "SecureConnect",
+        "price": 89.99,
+        "in_stock": true,
+        "features": ["VPN", "firewall", "threat detection"],
+        "reviews": [
+          {"user": "tech_guru", "rating": 5, "comment": "Best security tool"},
+          {"user": "happy_user", "rating": 5, "comment": "Works perfectly"},
+          {"user": "critic101", "rating": 3, "comment": "Has some bugs"}
+        ]
+      }
+    ],
+    "annual_revenue": 75000000.99,
+    "stock_symbol": "TECH",
+    "social_media": {
+      "twitter": "@techinnovate",
+      "linkedin": "techinnovate-solutions",
+      "github": "techinnovate"
+    },
+    "milestones": [2015, 2017, 2019, 2021, 2023],
+    "has_remote_work": true,
+    "ceo": {
+      "name": "Michael Chang",
+      "email": "michael.chang@techinnovate.com",
+      "previous_companies": ["DataCorp", "CloudTech"]
+    }
+  }
+}
