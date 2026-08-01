@@ -1,0 +1,21 @@
+{"timestamp": "2026-07-30T17:33:26", "level": "INFO", "message": "Application setup complete."}
+{"timestamp": "2026-07-30T17:33:26", "level": "INFO", "message": "User logged in successfully", "payload": {"username": "alice_dev", "auth": {"token": "********", "method": "OAuth"}, "session_id": 98421}}
+{"timestamp": "2026-07-30T17:33:35", "level": "INFO", "message": "Application setup complete."}
+{"timestamp": "2026-07-30T17:33:35", "level": "INFO", "message": "User logged in successfully", "payload": {"username": "alice_dev", "auth": {"token": "********", "method": "OAuth"}, "session_id": 98421}}
+{"timestamp": "2026-07-30T17:33:38", "level": "INFO", "message": "Application setup complete."}
+{"timestamp": "2026-07-30T17:33:38", "level": "INFO", "message": "User logged in successfully", "payload": {"username": "alice_dev", "auth": {"token": "********", "method": "OAuth"}, "session_id": 98421}}
+{"timestamp": "2026-07-30T17:33:38", "level": "INFO", "message": "Application setup complete."}
+{"timestamp": "2026-07-30T17:33:38", "level": "INFO", "message": "User logged in successfully", "payload": {"username": "alice_dev", "auth": {"token": "********", "method": "OAuth"}, "session_id": 98421}}
+{"timestamp": "2026-07-30T17:33:39", "level": "INFO", "message": "Application setup complete."}
+{"timestamp": "2026-07-30T17:33:39", "level": "INFO", "message": "User logged in successfully", "payload": {"username": "alice_dev", "auth": {"token": "********", "method": "OAuth"}, "session_id": 98421}}
+{"timestamp": "2026-07-30T18:14:22", "level": "INFO", "message": "Application setup complete."}
+{"timestamp": "2026-07-30T18:14:22", "level": "INFO", "message": "User logged in successfully", "payload": {"username": "alice_dev", "auth": {"token": "********", "method": "OAuth"}, "session_id": 98421}}
+{"timestamp": "2026-07-30T18:14:22", "level": "INFO", "message": "Application Started Successfully", "payload": {"username": "alice_dev", "secret": "********", "auth": {"token": "********", "method": "OAuth"}, "session_id": 98421}}
+{"timestamp": "2026-07-30T18:14:38", "level": "INFO", "message": "Application Started Successfully", "payload": {"username": "alice_dev", "secret": "********", "auth": {"token": "********", "method": "OAuth"}, "session_id": 98421}}
+{"timestamp": "2026-07-30T18:15:10", "level": "INFO", "message": "Application setup complete."}
+{"timestamp": "2026-07-30T18:15:10", "level": "INFO", "message": "User logged in successfully", "payload": {"username": "alice_dev", "auth": {"token": "********", "method": "OAuth"}, "session_id": 98421}}
+{"timestamp": "2026-07-30T18:15:10", "level": "INFO", "message": "Application Started Successfully", "payload": {"username": "alice_dev", "secret": "********", "auth": {"token": "********", "method": "OAuth"}, "session_id": 98421}}
+{"timestamp": "2026-07-30T18:15:48", "level": "INFO", "message": "Application setup complete."}
+{"timestamp": "2026-07-30T18:15:48", "level": "INFO", "message": "User logged in successfully", "payload": {"username": "alice_dev", "auth": {"token": "********", "method": "OAuth"}, "session_id": 98421}}
+{"timestamp": "2026-07-30T18:16:55", "level": "INFO", "message": "Application setup complete."}
+{"timestamp": "2026-07-30T18:16:55", "level": "INFO", "message": "User logged in successfully", "payload": {"username": "alice_dev", "auth": {"token": "********", "method": "OAuth"}, "session_id": 98421}}
