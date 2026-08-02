@@ -46,5 +46,17 @@
             "country": "Unknown",
             "zip_code": "00000"
         }
+    },
+    {
+        "name": "QuickTechLondonErroredJsonDispatch",
+        "founded": 2034,
+        "is_active": true,
+        "rating": 4.8,
+        "headquarters": {
+            "city": "Yorkshire",
+            "state": "Unknown",
+            "country": "Unknown",
+            "zip_code": "00000"
+        }
     }
 ]
