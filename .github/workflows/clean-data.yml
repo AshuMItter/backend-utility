@@ -7,6 +7,8 @@ on:
     - cron: '0 */6 * * *'  
   workflow_dispatch:
 
+permissions:
+  contents: write
 jobs:
     clean:
         runs-on: ubuntu-latest
@@ -33,9 +35,12 @@ jobs:
             git config --global user.name 'github-actions[bot]'
             git config --global user.email 'github-actions[bot]@users.noreply.github.com'
             git add data/cleaned_companies.json
-            git commit -m "Automated data cleaning"
-            git diff --staged --quiet || git commit -m "Auto-clean: $(date -u '+%Y-%m-%d %H:%M:%S')"
+            if git diff --staged --quiet; then
+            echo "✅ No changes to commit - data is already clean"
+            else
+            git commit -m "Auto-clean: $(date -u '+%Y-%m-%d %H:%M:%S')"
             git push
+            echo "✅ Cleaned data committed and pushed"
 #   '0 */6 * * *'
 #  │  │  │ │ │
 #  │  │  │ │ └─── Day of week (0-6) = * (any)
