@@ -1,0 +1,44 @@
+name: "Json Data Cleaning Workflow"
+
+on:
+  push:
+    branches: [master, main]
+  schedule:
+    - cron: '0 */6 * * *'  
+  workflow_dispatch:
+
+jobs:
+    clean:
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v4
+          with:
+            fetch-depth: 0
+        - uses: actions/setup-python@v5
+          with:
+            python-version: '3.13'
+
+        - name: Install dependencies
+          run: |
+            python -m pip install --upgrade pip
+            pip install -r requirements.txt
+
+        - name: Run the cleaning script
+          run: |
+            python src/clean_runner.py
+
+        - name: Commit and push changes
+          run: |
+            git config --global user.name 'github-actions[bot]'
+            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+            git add data/cleaned.json
+            git commit -m "Automated data cleaning"
+            git diff --staged --quiet || git commit -m "Auto-clean: $(date -u '+%Y-%m-%d %H:%M:%S')"
+            git push
+#   '0 */6 * * *'
+#  │  │  │ │ │
+#  │  │  │ │ └─── Day of week (0-6) = * (any)
+#  │  │  │ └───── Month (1-12) = * (any)
+#  │  │  └─────── Day of month (1-31) = * (any)
+#  │  └────────── Hour (0-23) = */6 (every 6 hours)
+#  └──────────── Minute (0-59) = 0 (at minute 0)
