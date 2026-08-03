@@ -16,7 +16,7 @@ jobs:
     clean:
         runs-on: ubuntu-latest
         steps:
-        - uses: actions/checkout@v4
+        - uses: actions/checkout@v4   # downloads your repository into ubuntu-latest runner or ubuntu-latest virtual machine
           with:
             fetch-depth: 0
             token: ${{ secrets.GITHUB_TOKEN }}

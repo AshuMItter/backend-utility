@@ -1,0 +1,62 @@
+[
+    {
+        "name": "TechInnovate Solutions",
+        "founded": 2015,
+        "is_active": true,
+        "rating": 4.8,
+        "headquarters": {
+            "city": "San Francisco",
+            "state": "CA",
+            "country": "USA",
+            "zip_code": "94105"
+        }
+    },
+    {
+        "name": "QuickTech",
+        "founded": 2023,
+        "is_active": true,
+        "rating": 4.7,
+        "headquarters": {
+            "city": "Dallas",
+            "state": "TX",
+            "country": "USA",
+            "zip_code": "75201"
+        }
+    },
+    {
+        "name": "QuickTechJapan",
+        "founded": 2023,
+        "is_active": true,
+        "rating": 4.5,
+        "headquarters": {
+            "city": "Hiroshima",
+            "state": "Tk",
+            "country": "Jaoan",
+            "zip_code": "4567"
+        }
+    },
+    {
+        "name": "QuickTechLondonErroredJson",
+        "founded": 2034,
+        "is_active": true,
+        "rating": 4.8,
+        "headquarters": {
+            "city": "Yorkshire",
+            "state": "Unknown",
+            "country": "Unknown",
+            "zip_code": "00000"
+        }
+    },
+    {
+        "name": "QuickTechLondonErroredJsonDispatch",
+        "founded": 2034,
+        "is_active": true,
+        "rating": 4.8,
+        "headquarters": {
+            "city": "Yorkshire",
+            "state": "Unknown",
+            "country": "Unknown",
+            "zip_code": "00000"
+        }
+    }
+]

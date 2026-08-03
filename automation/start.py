@@ -5,6 +5,7 @@ import os
 import platform
 import logging
 import uuid 
+import json 
  
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 if str(PROJECT_ROOT) not in sys.path:
@@ -53,6 +54,9 @@ class StartAutomation:
                 print(f"Cleaned JSON data successfully. {self.primary_key}")
 
 
+                # adding this cleaned data in file 
+                with open("cleaned_data.json", "w",encoding='utf-8') as f:
+                    f.write(json.dumps(cleaned_data, ensure_ascii=False, indent=4))
 
             # Further processing can be done here with cleaned_data
             # For example, saving to a file or database
